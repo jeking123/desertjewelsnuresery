@@ -12,48 +12,52 @@
 </head>
 
 <body>
-  <div class="hero is-large has-carousel">
-    <div class="hero-carousel carousel-animated carousel-animate-fade">
-        <div class='carousel-container'>
-            <div class='carousel-item has-background is-active'>
-              <img class="is-background" src="https://wikiki.github.io/images/merry-christmas.jpg" alt="" />
-            </div>
-            <div class='carousel-item has-background'>
-              <img class="is-background" src="https://wikiki.github.io/images/singer.jpg" alt="" />
-            </div>
-            <div class='carousel-item has-background'>
-              <img class="is-background" src="https://wikiki.github.io/images/sushi.jpg" alt="" />
-            </div>
-            <div class='carousel-item has-background'>
-              <img class="is-background" src="https://wikiki.github.io/images/life.jpg" alt="" />
-            </div>
-          </div>
-          <div class="carousel-navigation is-overlay">
-            <div class="carousel-nav-left">
-              <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            </div>
-            <div class="carousel-nav-right">
-              <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            </div>
-          </div>
+  <div class="hero is-fullheight has-carousel is-dark">
+    <div class="hero-carousel carousel-animated carousel-animate-slide">
+      <div class='carousel-container'>
+        <div class='carousel-item has-background is-active'>
+          <img class="is-background" src="https://wikiki.github.io/images/merry-christmas.jpg" alt="" />
+        </div>
+        <div class='carousel-item has-background'>
+          <img class="is-background" src="https://wikiki.github.io/images/singer.jpg" alt="" />
+        </div>
+        <div class='carousel-item has-background'>
+          <img class="is-background" src="https://wikiki.github.io/images/sushi.jpg" alt="" />
+        </div>
+        <div class='carousel-item has-background'>
+          <img class="is-background" src="https://wikiki.github.io/images/life.jpg" alt="" />
+        </div>
+      </div>
+      <div class="carousel-navigation is-overlay">
+        <div class="carousel-nav-left">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="carousel-nav-right">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+      </div>
     </div>
     <div class="hero-head">
       {% include nav.html %}
     </div>
     <!-- Hero content: will be in the middle -->
-    <div class="hero-body">
+    <div class="hero-body has-text-white">
       <div class="container has-text-centered">
         <h1 class="title">
-          Title
+          Native and Drought Tolerant Plants
         </h1>
         <h2 class="subtitle">
-          Subtitle
+          Locally grown for people who want to save water.
         </h2>
+        <br><br><br>
+        <a href="#" class="button is-primary is-rounded">
+          Ask Us About Our Inventory
+        </a>
       </div>
     </div>
     <!-- Hero footer: will stick at the bottom -->
     <div class="hero-foot">
-      <nav class="tabs">
+      <!-- <nav class="tabs">
         <div class="container">
           <ul>
             <li class="is-active"><a>Overview</a></li>
@@ -64,9 +68,144 @@
             <li><a>Layout</a></li>
           </ul>
         </div>
-      </nav>
+      </nav> -->
     </div>
   </div>
+  <section class="section is-medium has-background-primary ">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <h1 class="title has-text-white">Desert Jewels Nursery</h1>
+          <p class="subtitle has-text-white">
+            We grow plants for rock gardens, ground covers, and Xeriscape plants. Plants such as Penstemons, Desert
+            Buckwheats, Sedums, and many native species that thrive on rocky soils. Some of these plants, including
+            many Sedums, are also useful for green roof applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section is-small has-background-link has-text-centered">
+    <h1 class="title has-text-white">Our Inventory</h1>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline is-6">
+        <div class="column is-4 " style="height: 33.333vw;">
+          <div class="has-background-primary is-fullheight">Here's Some Text</div>
+        </div>
+        <div class="column is-4" style="height: 33.333vw;">
+          <div class="has-background-primary">Here's Some Text</div>
+        </div>
+        <div class="column is-4" style="height: 33.333vw;">
+          <div class="has-background-primary">Here's Some Text</div>
+        </div>
+        <div class="column is-4" style="height: 33.333vw;">
+          <div class="has-background-primary">Here's Some Text</div>
+        </div>
+        <div class="column is-4" style="height: 33.333vw;">
+          <div class="has-background-primary">Here's Some Text</div>
+        </div>
+        <div class="column is-4" style="height: 33.333vw;">
+          <div class="has-background-primary">Here's Some Text</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section is-small has-background-info has-text-centered">
+    <h1 class="title has-text-white">Learn A Bit About Why <br> We Grow What We Do</h1>
+  </section>
+  <section class="section is-medium has-background-success has-text-centered">
+    <div class="container">
+      <div class="columns is-variable">
+        <div class="column">
+          <div>
+            <img src="https://wikiki.github.io/images/merry-christmas.jpg" alt="">
+            <a href="#" class="has-text-white is-size-3">
+              Penstemons
+            </a>
+          </div>
+        </div>
+        <div class="column is-1"></div>
+        <div class="column">
+          <div>
+            <img src="https://wikiki.github.io/images/merry-christmas.jpg" alt="">
+            <a href="#" class="has-text-white is-size-3">
+              Pollinators
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer has-background-primary has-text-white">
+    <div class="container">
+      <div class="columns is-narrow">
+        <div class="column is-12">
+          <img src="/uploads/DesertJewelsLogo.svg" width="375px" alt="Desert Jewels Nursery Logo">
+        </div>
+      </div>
+      <div class="columns is-variable is-8">
+        <div class="column is-3">
+          <div>
+            <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">Hours</h1>
+            <p>March 16th - June 29th</p>
+            <p>Sep. 6th - Oct. 12th</p>
+            <p>Fridays & Saturdays 9-5</p>
+            <p>OR CALL FOR AN APPOINTMENT</p>
+          </div><br>
+          <div>
+            <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">Contact</h1>
+            <p>9809 East Upriver Drive</p>
+            <p>Spokane, WA 99206</p>
+            <br>
+            <a class="has-text-white" href="mailto:info@desertjewelsnursery.com">info@desertjewelsnursery.com</a><br>
+            <a class="has-text-white" href="#">(509) 893-3771</a>
+          </div>
+        </div>
+        <div class="column is-2">
+          <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">Inventory</h1>
+          <a href="#" class="has-text-white">
+            Perennials
+          </a><br>
+          <a href="#" class="has-text-white">
+            Annuals
+          </a><br>
+          <a href="#" class="has-text-white">
+            Low Shrubs
+          </a><br>
+          <a href="#" class="has-text-white">
+            Ground Cover
+          </a><br>
+          <a href="#" class="has-text-white">
+            Grasses
+          </a><br>
+          <a href="#" class="has-text-white">
+            Medium Shrubs
+          </a><br>
+          <a href="#" class="has-text-white">
+            Vines
+          </a><br>
+          <a href="#" class="has-text-white">
+            Tall Shrubs
+          </a><br>
+          <a href="#" class="has-text-white">
+            Trees
+          </a>
+        </div>
+        <div class="column is-3">
+          <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">We're for the</h1>
+          <p>Environmentally conscious homeowners and landscapers, people who wish to encourage birds and butterflies,
+            people on wells with low water availability, rock gardeners and collectors will all find something
+            interesting and beautiful at Desert Jewels Nursery.</p>
+        </div>
+        <div class="column is-3 is-offset-1">
+          <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">We're on Upriver Dr.</h1>
+          <img src="/uploads/map.png" width="100%" height="auto" alt="Map of Local Area">
+        </div>
+      </div>
+    </div>
+  </footer>
 
   {% include scripts.html %}
 </body>

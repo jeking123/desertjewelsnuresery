@@ -7,10 +7,18 @@
 // To override bulma VARIABLES, Set them before importing bulma
 
 // Overide Bulma Variables above this
+$primary: #C7AA7C;
+$link: #9F8254;
+$info: #62A557;
+$success: #4C8B42;
+
+// Nav Overides
+$navbar-height: 4.5rem;
 
 // Font Overides
 $family-sans-serif: mr-eaves-modern;
 $family-serif: minion;
+
 @import "../_sass/bulma/bulma.sass"; 
 
 // new code
