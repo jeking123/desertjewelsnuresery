@@ -1,0 +1,25 @@
+---
+title: Desert Jewels Nursery
+timezone: America/Los_Angeles
+collections:
+  posts:
+    title: Posts
+    output: true
+    heading: Have you read our latest blog posts?
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+    author: John Doe
+    image: 
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page

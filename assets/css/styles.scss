@@ -1,0 +1,16 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter
+---
+
+@charset "utf-8";
+// To override bulma VARIABLES, Set them before importing bulma
+
+// Overide Bulma Variables above this
+
+// Font Overides
+$family-sans-serif: mr-eaves-modern;
+$family-serif: minion;
+@import "../_sass/bulma/bulma.sass"; 
+
+// new code
