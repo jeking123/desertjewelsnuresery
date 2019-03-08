@@ -1,7 +1,7 @@
----
-# this ensures Jekyll reads the file to be transformed into CSS later
-# only Main files contain this front matter
----
+--- 
+# this ensures Jekyll reads the file to be transformed into CSS later 
+# only Main files contain this front matter 
+--- 
 
 @charset "utf-8";
 // To override bulma VARIABLES, Set them before importing bulma
@@ -19,6 +19,42 @@ $navbar-height: 4.5rem;
 $family-sans-serif: mr-eaves-modern;
 $family-serif: minion;
 
-@import "../_sass/bulma/bulma.sass"; 
+@import "../_sass/bulma/bulma.sass";
 
 // new code
+
+
+// hero carousel
+
+// hero carousel animation
+.carousel-item .carousel-content {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: ease-in-out 1s;
+  transition-delay: .5s;
+}
+
+.carousel-item.is-active .carousel-content {
+  opacity: 1 !important;
+  transform: translateY(0px);
+}
+
+// homepage invnetory squares
+.square {
+  padding-bottom: 100%;
+  position: relative;
+}
+.square-cont {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: $primary;
+  transition: opacity .5s ease-in-out;
+}
+.square-cont:hover {
+  opacity: 1;
+}

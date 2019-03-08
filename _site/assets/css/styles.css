@@ -2343,3 +2343,13 @@ a.panel-block:hover, label.panel-block:hover { background-color: whitesmoke; }
 .carousel.carousel-animate-fade .carousel-item, .hero-carousel.carousel-animate-fade .carousel-item { position: absolute; width: 100%; height: 100%; transition: opacity 0.5s ease-in-out; }
 .carousel.carousel-animate-fade .carousel-item.is-active, .hero-carousel.carousel-animate-fade .carousel-item.is-active { opacity: 1; }
 .carousel.carousel-animate-fade .carousel-item:not(.is-active), .hero-carousel.carousel-animate-fade .carousel-item:not(.is-active) { opacity: 0; }
+
+.carousel-item .carousel-content { opacity: 0; transform: translateY(50px); transition: ease-in-out 1s; transition-delay: .5s; }
+
+.carousel-item.is-active .carousel-content { opacity: 1 !important; transform: translateY(0px); }
+
+.square { padding-bottom: 100%; position: relative; }
+
+.square-cont { position: absolute; height: 100%; width: 100%; display: flex; justify-content: center; align-items: center; opacity: 0; background-color: #C7AA7C; transition: opacity .5s ease-in-out; }
+
+.square-cont:hover { opacity: 1; }
