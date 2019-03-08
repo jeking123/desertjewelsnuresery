@@ -1,10 +1,14 @@
+{% for inventory in page.inventory %}
 <div class="column is-4-desktop is-6-tablet is-6-mobile">
-  <div class="has-background-info square">
-    <div class="square-cont has-text-centered">
-      <div class="content">
-        <h1>Here's Some Text</h1>
-        <p>some text to go along with the header</p>
+  <div class="square" style="background: url({{inventory.image}}) no-repeat center; background-size: cover;">
+    <a href="/inventory/">
+      <div class="square-cont has-text-centered">
+        <div class="content">
+          <h1>{{inventory.title}}</h1>
+          <p>{{inventory.subtitle}}</p>
+        </div>
       </div>
-    </div>
+    </a>
   </div>
 </div>
+{% endfor %}

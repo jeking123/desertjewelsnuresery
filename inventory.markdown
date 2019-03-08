@@ -1,0 +1,4 @@
+---
+layout: inventory
+title: Inventory
+---

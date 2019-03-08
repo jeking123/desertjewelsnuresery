@@ -1,16 +1,16 @@
-  {% include head.html %}
-  <div class="hero is-fullheight has-carousel is-light">
-    {% include herocarousel.html %}
-    <div class="hero-head">
-      {% include nav.html %}
-    </div>
-    <!-- Hero content: will be in the middle -->
-    <div class="hero-body has-text-white">
-      
-    </div>
-    <!-- Hero footer: will stick at the bottom -->
-    <div class="hero-foot">
-      <!-- <nav class="tabs">
+{% include head.html %}
+<div class="hero is-fullheight has-carousel is-light">
+  {% include herocarousel.html %}
+  <div class="hero-head">
+    {% include nav.html %}
+  </div>
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body has-text-white">
+
+  </div>
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot">
+    <!-- <nav class="tabs">
         <div class="container">
           <ul>
             <li class="is-active"><a>Overview</a></li>
@@ -22,53 +22,49 @@
           </ul>
         </div>
       </nav> -->
+  </div>
+</div>
+{% include about.html %}
+<section class="section is-small has-background-link has-text-centered">
+  <h1 class="title has-text-white">Our Inventory</h1>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="columns is-multiline is-6 is-mobile">
+      {% include inventory.html %}
     </div>
   </div>
- {% include about.html %}
-  <section class="section is-small has-background-link has-text-centered">
-    <h1 class="title has-text-white">Our Inventory</h1>
-  </section>
-  <section class="section">
-    <div class="container">
-      <div class="columns is-multiline is-6 is-mobile">
-        {% include inventory.html %}
-        {% include inventory.html %}
-        {% include inventory.html %}
-        {% include inventory.html %}
-        {% include inventory.html %}
-        {% include inventory.html %}
+</section>
+<section class="section is-small has-background-info has-text-centered">
+  <h1 class="title has-text-white is-size-1">Learn A Bit About Why <br> We Grow What We Do</h1>
+</section>
+<section class="section is-medium has-background-success has-text-centered">
+  <div class="container">
+    <div class="columns is-variable">
+      <div class="column">
+        <a href="#" class="has-text-white is-size-3">
+          <div>
+            <img src="/uploads/penstemons.jpg" width="500px" height="330px" alt="">
+
+            <p>Penstemons</p>
+
+          </div>
+        </a>
+      </div>
+      <div class="column is-1"></div>
+      <div class="column">
+        <a href="#" class="has-text-white is-size-3">
+          <div>
+            <img src="/uploads/pollinators.jpg" width="500px" height="330px" alt="">
+
+            <p>Pollinators</p>
+
+          </div>
+        </a>
       </div>
     </div>
-  </section>
-  <section class="section is-small has-background-info has-text-centered">
-    <h1 class="title has-text-white">Learn A Bit About Why <br> We Grow What We Do</h1>
-  </section>
-  <section class="section is-medium has-background-success has-text-centered">
-    <div class="container">
-      <div class="columns is-variable">
-        <div class="column">
-          <div>
-            <img src="https://wikiki.github.io/images/merry-christmas.jpg" alt="">
-            <a href="#" class="has-text-white is-size-3">
-              Penstemons
-            </a>
-          </div>
-        </div>
-        <div class="column is-1"></div>
-        <div class="column">
-          <div>
-            <img src="https://wikiki.github.io/images/merry-christmas.jpg" alt="">
-            <a href="#" class="has-text-white is-size-3">
-              Pollinators
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {% include footer.html %}
+  </div>
+</section>
+{% include footer.html %}
 
-  {% include scripts.html %}
-</body>
-
-</html>
+{% include scripts.html %}

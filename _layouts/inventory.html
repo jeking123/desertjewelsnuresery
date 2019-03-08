@@ -1,0 +1,36 @@
+{% include head.html %}
+
+{% include nav.html %}
+
+<section class="hero is-medium" style="background: url('/uploads/Cover-1.jpg') no-repeat center; background-size: cover;">
+  <div class="hero-body has-text-centered">
+    <h1 class="title has-text-white is-size-1">Inventory</h1>
+  </div>
+</section>
+
+<section class="section container" style="overflow: hidden;">
+  <div style="overflow-y: scroll;">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Common Name</th>
+          <th>Species</th>
+          <th>Region</th>
+          <th>Size</th>
+          <th>Flower Color</th>
+          <th>Flower Time</th>
+          <th>Evergreen</th>
+          <th>Xeric</th>
+          <th>Comments</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% include sample-inventory.html %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{% include footer.html %}
+
+{% include scripts.html %}
