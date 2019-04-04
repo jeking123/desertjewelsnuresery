@@ -1,7 +1,7 @@
 {% for inventory in page.inventory %}
 <div class="column is-4-desktop is-6-tablet is-6-mobile">
-  <div class="square" style="background: url(.{{inventory.image}}) no-repeat center; background-size: cover;">
-    <a href="/inventory/">
+  <div class="square" style="background: url({{site.url}}{{inventory.image}}) no-repeat center; background-size: cover;">
+    <a href="{{site.url}}/inventory/">
       <div class="square-cont has-text-centered">
         <div class="content">
           <h1>{{inventory.title}}</h1>
