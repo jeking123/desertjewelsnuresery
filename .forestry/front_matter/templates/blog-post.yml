@@ -17,3 +17,5 @@ fields:
 - type: file
   name: head-image
   label: head-image
+pages:
+- _posts/2004-04-19-pestemons.markdown
