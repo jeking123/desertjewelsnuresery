@@ -1,6 +1,10 @@
 ---
 title: Desert Jewels Nursery
 timezone: America/Los_Angeles
+url: https://jeking123.github.io/desertjewelsnursery/
+permalink: pretty
+plugins:
+- jekyll-sitemap
 collections:
   posts:
     title: Posts
