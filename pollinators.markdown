@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: Polinators
-permalink: /polinators/
+permalink: /pollinators/
 head-image: './uploads/pollinators.jpg'
 ---
 <h2>Focus on Pollinators</h2>
