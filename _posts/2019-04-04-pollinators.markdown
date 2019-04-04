@@ -7,11 +7,11 @@ head-image: "/uploads/pollinators.jpg"
 ---
 ## Focus on Pollinators
 
-We love pollinators!  They pollinate more than 2/3 of the world's crops, and nearly 70% of the world's flowering plants.  In our country alone, more than 100 crops need pollinators.     
+We love pollinators!  They pollinate more than 2/3 of the world's crops, and nearly 70% of the world's flowering plants.  In our country alone, more than 100 crops need pollinators.
 
 ![](/_uploads/pollinators.jpg)
 
-In wild ecosystems, pollinators are keystone species. Fruits and seeds derived from insect pollination are a major part of the diet of approximately 25 percent of all birds, and of mammals ranging from red-backed voles to grizzly bears. In many places, the essential service of pollination is at risk from habitat loss, pesticide use, and introduced diseases.   
+In wild ecosystems, pollinators are keystone species. Fruits and seeds derived from insect pollination are a major part of the diet of approximately 25 percent of all birds, and of mammals ranging from red-backed voles to grizzly bears. In many places, the essential service of pollination is at risk from habitat loss, pesticide use, and introduced diseases.  
 ([http://www.xerces.org/pollinator-conservation/](http://www.xerces.org/pollinator-conservation/ "http://www.xerces.org/pollinator-conservation/"))
 
 ![](/_uploads/showy_milkweed_bumblebees.jpg)
