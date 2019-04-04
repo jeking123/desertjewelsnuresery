@@ -22,7 +22,9 @@ $family-primary: mr-eaves-modern;
 @import "../_sass/bulma/bulma.sass";
 
 // new code
-
+.content img {
+  width: 100%;
+}
 
 // hero carousel
 
