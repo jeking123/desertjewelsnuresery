@@ -1,6 +1,7 @@
 ---
 layout: posts
 title: Penstemons
+permalink: /penstemons/
 head-image: './uploads/penstemons.jpg'
 ---
 <h2>What is a Penstemon?</h2>
