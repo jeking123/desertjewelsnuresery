@@ -2,7 +2,7 @@
 layout: posts
 title: Penstemons
 permalink: /penstemons/
-head-image: './uploads/penstemons.jpg'
+head-image: '/uploads/penstemons.jpg'
 ---
 <h2>What is a Penstemon?</h2>
 <p>There are 270 different Penstemon species, and countless hybrids and cultivars.  Most are native to North America, and a few are native to Mexico.  A large number of Penstemon species are native to the northwest.</p>
