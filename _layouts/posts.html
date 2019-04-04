@@ -1,0 +1,26 @@
+{% include head.html %}
+<div class="hero is-medium is-light" style="background: url({{page.head-image}}) no-repeat center; background-size: cover;">
+  {% include herocarousel.html %}
+  <div class="hero-head">
+    {% include nav.html %}
+  </div>
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body has-text-white has-text-centered">
+    <h1>{{page.title}}</h1>
+  </div>
+  <!-- Hero footer: will stick at the bottom -->
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        {{content}}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include footer.html %}
+
+{% include scripts.html %}
