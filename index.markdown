@@ -21,15 +21,15 @@ inventory:
   title: Complete Invetory
   subtitle: some text to go along with the header
 carousel:
-- image: "/uploads/Cover-1.jpg"
+- image: "./uploads/Cover-1.jpg"
   title: Native and Drought Tolerant Plants
   subtitle: Locally grown for people who want to save water.
   link: Ask Us About Our Inventory
-- image: "/uploads/Cover-2.jpg"
+- image: "./uploads/Cover-2.jpg"
   title: Native and Drought Tolerant Plants
   subtitle: Locally grown for people who want to save water.
   link: Ask Us About Our Inventory
-- image: "/uploads/Cover-3.jpg"
+- image: "./uploads/Cover-3.jpg"
   title: Native and Drought Tolerant Plants
   subtitle: Locally grown for people who want to save water.
   link: Ask Us About Our Inventory
