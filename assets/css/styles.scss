@@ -21,7 +21,22 @@ $family-primary: mr-eaves-modern;
 
 @import "../_sass/bulma/bulma.sass";
 
-// new code
+// Helpers
+.has-small-padding-bottom {
+  padding-bottom: 25px;
+}
+
+//
+
+body {
+  overflow: hidden;
+}
+
+.navbar-brand img {
+  width: 375px;
+}
+
+// Blog Post images
 .content img {
   width: 100%;
 }
@@ -34,6 +49,15 @@ $family-primary: mr-eaves-modern;
   transform: translateY(50px);
   transition: ease-in-out 1s;
   transition-delay: .5s;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.carousel-inner-content {
+  background-color: rgba(255, 255, 255, .78);
+  padding: 50px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .carousel-item.is-active .carousel-content {
@@ -46,6 +70,7 @@ $family-primary: mr-eaves-modern;
   padding-bottom: 100%;
   position: relative;
 }
+
 .square-cont {
   position: absolute;
   height: 100%;
@@ -57,21 +82,12 @@ $family-primary: mr-eaves-modern;
   background-color: $primary;
   transition: opacity .5s ease-in-out;
 }
+
 .square-cont:hover {
   opacity: 1;
 }
 
 // Inventory
-.bm--card-equal-height {
-   display: flex;
-   flex-direction: column;
-   height: 100%;
-   max-height: 600px;
-}
-.bm--card-equal-height .card-footer {
-   margin-top: auto;
-}
-
 .is-hidden {
   max-height: 0px;
   overflow: hidden;
@@ -85,4 +101,40 @@ $family-primary: mr-eaves-modern;
 
 .animate {
   transition: max-height 2s ease-in-out;
+}
+
+/* XL Desktop Media Query */
+@media all and (min-width: 1921px) {}
+
+/* Desktop Media Query */
+@media all and (max-width: 1920px) {}
+
+/* Mobile Media Query */
+@media all and (max-width: 1087px) {
+  .carousel-item .carousel-content {
+    padding: 15px;
+  }
+
+  .carousel-inner-content {
+    background-color: rgba(255, 255, 255, .78);
+    padding: 50px;
+    width: 75%;
+  }
+  .navbar-brand img {
+    width: 75%;
+    margin-left: 25px;
+  }
+}
+
+// Small Mobile Media Query
+@media all and (max-width: 360px) {
+  .carousel-item .carousel-content {
+    padding: 15px;
+  }
+
+  .carousel-inner-content {
+    background-color: rgba(255, 255, 255, .78);
+    padding: 50px;
+    width: 60%;
+  }
 }
