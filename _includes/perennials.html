@@ -1,0 +1,27 @@
+{% for item in site.data.perennials-and-annuals %}
+<div class="column is-3-desktop is-4-tablet is-12-mobile">
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-4x3">
+        <img src="/uploads/penstemons.jpg" alt="">
+      </figure>
+    </div>
+    <div class="card-header">
+      <p class="card-header-title"><abbr title="{{item.species}}"> <i class="fas fa-info-circle"> </i></abbr>&nbsp;
+        {{item.common-name}} </p>
+    </div>
+    <div class="card-content">
+      <p class="">{{item.comment}}</p>
+      <a class="toggle" onclick="toggle_visibility('{{item.common-name}}')">
+        Show More . . .
+      </a>
+      <div class="is-size-7 is-hidden animate" id="{{item.common-name}}">
+        <p>Flower Time: {{item.flower-time}}</p>
+        <p>Xeric: {{item.xeric}}</p>
+        <p><abbr title="Local, Regional, Western, Midwestern, Native, or Introduced">Region:</abbr> {{item.region}}</p>
+        <p>Size: {{item.size}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

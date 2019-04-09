@@ -60,3 +60,29 @@ $family-primary: mr-eaves-modern;
 .square-cont:hover {
   opacity: 1;
 }
+
+// Inventory
+.bm--card-equal-height {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   max-height: 600px;
+}
+.bm--card-equal-height .card-footer {
+   margin-top: auto;
+}
+
+.is-hidden {
+  max-height: 0px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.is-active {
+  max-height: 500px;
+  opacity: 1;
+}
+
+.animate {
+  transition: max-height 2s ease-in-out;
+}

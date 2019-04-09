@@ -1,68 +1,46 @@
 <footer class="footer has-background-primary has-text-white">
-    <div class="container">
-      <div class="columns is-narrow">
-        <div class="column is-12">
-          <img src="{{site.url}}/uploads/DesertJewelsLogo.svg" width="375px" alt="Desert Jewels Nursery Logo">
-        </div>
-      </div>
-      <div class="columns is-variable is-8">
-        <div class="column is-3">
-          <div>
-            <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">Hours</h1>
-            <p>March 16th - June 29th</p>
-            <p>Sep. 6th - Oct. 12th</p>
-            <p>Fridays & Saturdays 9-5</p>
-            <p>OR CALL FOR AN APPOINTMENT</p>
-          </div><br>
-          <div>
-            <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">Contact</h1>
-            <p>9809 East Upriver Drive</p>
-            <p>Spokane, WA 99206</p>
-            <br>
-            <a class="has-text-white" href="mailto:info@desertjewelsnursery.com">info@desertjewelsnursery.com</a><br>
-            <a class="has-text-white" href="#">(509) 893-3771</a>
-          </div>
-        </div>
-        <div class="column is-2">
-          <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">Inventory</h1>
-          <a href="#" class="has-text-white">
-            Perennials
-          </a><br>
-          <a href="#" class="has-text-white">
-            Annuals
-          </a><br>
-          <a href="#" class="has-text-white">
-            Low Shrubs
-          </a><br>
-          <a href="#" class="has-text-white">
-            Ground Cover
-          </a><br>
-          <a href="#" class="has-text-white">
-            Grasses
-          </a><br>
-          <a href="#" class="has-text-white">
-            Medium Shrubs
-          </a><br>
-          <a href="#" class="has-text-white">
-            Vines
-          </a><br>
-          <a href="#" class="has-text-white">
-            Tall Shrubs
-          </a><br>
-          <a href="#" class="has-text-white">
-            Trees
-          </a>
-        </div>
-        <div class="column is-3">
-          <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">We're for the</h1>
-          <p>Environmentally conscious homeowners and landscapers, people who wish to encourage birds and butterflies,
-            people on wells with low water availability, rock gardeners and collectors will all find something
-            interesting and beautiful at Desert Jewels Nursery.</p>
-        </div>
-        <div class="column is-3 is-offset-1">
-          <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">We're on Upriver Dr.</h1>
-          <img src="{{site.url}}/uploads/map.png" width="100%" height="auto" alt="Map of Local Area">
-        </div>
+  <div class="container">
+    <div class="columns is-narrow">
+      <div class="column is-12">
+        <img src="{{site.url}}/uploads/DesertJewelsLogo.svg" width="375px" alt="Desert Jewels Nursery Logo">
       </div>
     </div>
-  </footer>
+    <div class="columns is-variable is-8">
+      <div class="column is-3">
+        <div>
+          <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">Hours</h1>
+          <p>March 16th - June 29th</p>
+          <p>Sep. 6th - Oct. 12th</p>
+          <p>Fridays & Saturdays 9-5</p>
+          <p>OR CALL FOR AN APPOINTMENT</p>
+        </div><br>
+        <div>
+          <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">Contact</h1>
+          <p>9809 East Upriver Drive</p>
+          <p>Spokane, WA 99206</p>
+          <br>
+          <a class="has-text-white" href="mailto:info@desertjewelsnursery.com">info@desertjewelsnursery.com</a><br>
+          <a class="has-text-white" href="#">(509) 893-3771</a>
+        </div>
+      </div>
+      <div class="column is-2">
+        <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">Inventory</h1>
+        {% for item in site.inventory %}
+        <a href="/inventory/{{item.file}}" class="has-text-white">
+          {{item.title}}
+        </a><br>
+        {% endfor %}
+      </div>
+      <div class="column is-3">
+        <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">We're for the</h1>
+        <p>Environmentally conscious homeowners and landscapers, people who wish to encourage birds and butterflies,
+          people on wells with low water availability, rock gardeners and collectors will all find something
+          interesting and beautiful at Desert Jewels Nursery.</p>
+      </div>
+      <div class="column is-3 is-offset-1">
+        <h1 class="has-text-weight-bold is-size-4 is-family-sans-serif">We're on Upriver Dr.</h1>
+        <img src="{{site.url}}/uploads/map.png" width="100%" height="auto" alt="Map of Local Area">
+      </div>
+    </div>
+  </div>
+</footer>

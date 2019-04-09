@@ -4,11 +4,29 @@
 
 <section class="hero is-medium" style="background: url('{{site.url}}/uploads/Cover-1.jpg') no-repeat center; background-size: cover;">
   <div class="hero-body has-text-centered">
-    <h1 class="title has-text-white is-size-1">Inventory</h1>
+    <h1 class="title has-text-white is-size-1">{{page.title}}</h1>
   </div>
 </section>
 
-<section class="section container" style="overflow: hidden;">
+<section class="section container">
+  <div class="columns is-multiline is-mobile">
+    {% if page.file == 'grasses' %}
+      {% include grasses.html %}
+    {% elsif page.file == 'perennials-and-annuals' %}
+      {% include perennials.html %}
+    {% elsif page.file == 'low-shrubs-and-ground-covers' %}
+      {% include perennials.html %}
+    {% elsif page.file == 'medium-shrubs' %}
+      {% include medium.html %}
+    {% elsif page.file == 'tall-shrubs' %}
+      {% include tall.html %}
+    {% elsif page.file == 'trees-and-vines' %}
+      {% include trees.html %}
+    {% endif %}
+  </div>
+</section>
+
+<!-- <section class="section container" style="overflow: hidden;">
   <div style="overflow-y: scroll;">
     <table class="table">
       <thead>
@@ -29,7 +47,7 @@
       </tbody>
     </table>
   </div>
-</section>
+</section> -->
 
 {% include footer.html %}
 

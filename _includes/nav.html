@@ -16,38 +16,15 @@
             About
           </a>
           <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link" href="{{site.url}}/inventory">
+            <a class="navbar-link" href="#">
               Inventory
             </a>
             <div class="navbar-dropdown">
-              <a href="#" class="navbar-item">
-                Perennials
+              {% for item in site.inventory %}
+              <a href="/inventory/{{item.file}}" class="navbar-item">
+                {{item.title}}
               </a>
-              <a href="#" class="navbar-item">
-                Annuals
-              </a>
-              <a href="#" class="navbar-item">
-                Low Shrubs
-              </a>
-              <a href="#" class="navbar-item">
-                Ground Cover
-              </a>
-              <a href="#" class="navbar-item">
-                Grasses
-              </a>
-              <a href="#" class="navbar-item">
-                Medium Shrubs
-              </a>
-              <a href="#" class="navbar-item">
-                Vines
-              </a>
-              <a href="#" class="navbar-item">
-                Tall Shrubs
-              </a>
-              <a href="#" class="navbar-item">
-                Trees
-              </a>
-
+              {% endfor %}
             </div>
           </div>
           <a href="{{site.url}}/penstemons/" class="navbar-item">

@@ -1,6 +1,19 @@
 <script src="{{site.url}}/assets/js/scripts.js"></script>
 <script src="{{site.url}}/assets/js/bulma-carousel.min.js"></script>
 
+<script type="text/javascript">
+  function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    if (e.classList.contains('is-hidden')) {
+      e.classList.remove( 'is-hidden');
+      e.className += " is-active";
+    } else {
+      e.classList.remove('is-active');
+      e.className += ' is-hidden';
+    }
+  }
+</script>
+
 </body>
 
 </html>
