@@ -2,8 +2,16 @@
 <div class="column is-3-desktop is-4-tablet is-12-mobile">
   <div class="card">
     <div class="card-image">
-      <figure class="image is-4x3">
-        <img src="/uploads/penstemons.jpg" alt="">
+      <div style="
+        background-image: url(/uploads/web_plants/{{item.file-name}}.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 200px;
+      "></div>
+      <figure class="image is-4x3" style="">
+        <!-- <img src="/uploads/web_plants/" alt="{{item.common-name}}, {{item.species}}"> -->
       </figure>
     </div>
     <div class="card-header">
@@ -11,15 +19,15 @@
         {{item.common-name}} </p>
     </div>
     <div class="card-content">
-      <p class="">{{item.comment}}</p>
-      <a class="toggle" onclick="toggle_visibility('{{item.common-name}}')">
-        Show More . . .
-      </a>
-      <div class="is-size-7 is-hidden animate" id="{{item.common-name}}">
         <p>Flower Time: {{item.flower-time}}</p>
         <p>Xeric: {{item.xeric}}</p>
         <p><abbr title="Local, Regional, Western, Midwestern, Native, or Introduced">Region:</abbr> {{item.region}}</p>
         <p>Size: {{item.size}}</p>
+      <a class="toggle" onclick="toggle_visibility('{{item.common-name}}')">
+        Show Comment . . .
+      </a>
+      <div class="is-size-6 is-hidden animate" id="{{item.common-name}}">
+          <p class="">{{item.comment}}</p>
       </div>
     </div>
   </div>
