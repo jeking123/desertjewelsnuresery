@@ -4,16 +4,22 @@ title: Desert Jewels Nursery
 inventory:
 - image: "/uploads/inventory/i-perennial.jpg"
   title: Perennials & Annuals
+  link: perennials-and-annuals
 - image: "/uploads/inventory/i-low.jpg"
   title: Low Shrubs & <br> Ground Cover
+  link: low-shrubs-and-ground-covers
 - image: "/uploads/inventory/i-grasses.jpg"
   title: Grasses
+  link: grasses
 - image: "/uploads/inventory/i-medium.jpg"
   title: Medium Shrubs
+  link: medium-shrubs
 - image: "/uploads/inventory/i-tall.jpg"
   title: Tall Shrubs
+  link: tall-shrubs
 - image: "/uploads/inventory/i-trees.jpg"
   title: Trees & Vines
+  link: trees-and-vines
 carousel:
 - image: "/uploads/Cover-1-Echinacea.JPG"
   title: Xeriscape Plants
