@@ -2,36 +2,30 @@
 layout: default
 title: Desert Jewels Nursery
 inventory:
-- image: "/uploads/inventory/perennials.jpg"
+- image: "/uploads/inventory/i-perennial.jpg"
   title: Perennials & Annuals
-  subtitle: some text to go along with the header
-- image: "/uploads/inventory/lowshrubs.jpg"
+- image: "/uploads/inventory/i-low.jpg"
   title: Low Shrubs & <br> Ground Cover
-  subtitle: some text to go along with the header
-- image: "/uploads/inventory/grasses.jpg"
+- image: "/uploads/inventory/i-grasses.jpg"
   title: Grasses
-  subtitle: some text to go along with the header
-- image: "/uploads/inventory/mediumshrubs.jpg"
+- image: "/uploads/inventory/i-medium.jpg"
   title: Medium Shrubs
-  subtitle: some text to go along with the header
-- image: "/uploads/inventory/tallshrub.jpg"
+- image: "/uploads/inventory/i-tall.jpg"
   title: Tall Shrubs
-  subtitle: some text to go along with the header
-- image: "/uploads/inventory/spreadsheet.jpg"
+- image: "/uploads/inventory/i-trees.jpg"
   title: Trees & Vines
-  subtitle: some text to go along with the header
 carousel:
-- image: "/uploads/Cover-1.jpg"
+- image: "/uploads/Cover-1-Echinacea.JPG"
   title: Xeriscape Plants
-  subtitle: Our focus is on beautiful, flowering drought-adapted western native plants, including those native to the Columbia Basin. In addition to our regional natives, we grow some Southwestern species that are fully hardy and beautiful in a very low water planting.
+  subtitle: Our focus is on beautiful, flowering drought-adapted western native plants, including those native to the Columbia Basin.
   link: Ask Us About Our Inventory
-- image: "/uploads/Cover-2.jpg"
+- image: "/uploads/Cover-2-Oenothera.JPG"
   title: Reduced Water Plants
-  subtitle: Plants from the American prairie create a colorful home landscape with low water inputs. The first year prairie garden in the photo was watered once every two weeks through its first summer, in a summer with no rainfall.
+  subtitle: Plants from the American prairie create a colorful home landscape with low water inputs.
   link: Ask Us About Our Inventory
-- image: "/uploads/Cover-3.jpg"
+- image: "/uploads/Cover-3-Spiraea.JPG"
   title: Local Native Trees & Shrubs
-  subtitle: In addition to our desert shrubs that we start from seeds, we offer many different species of local forest trees & shrubs. This includes Douglas maple, Serviceberry, Kinnickinnik, Snowberry, and many others.
+  subtitle: In addition to our desert shrubs that we start from seeds, we offer many different species of local forest trees & shrubs.
   link: Ask Us About Our Inventory
 ---
 
