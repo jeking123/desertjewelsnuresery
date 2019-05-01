@@ -1,5 +1,5 @@
 ---
 file: trees-and-vines
 title: Trees & Vines
-cover: i-trees.jpg
+cover: i-trees.JPG
 ---

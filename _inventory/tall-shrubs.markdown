@@ -1,6 +1,5 @@
 ---
 file: tall-shrubs
 title: Tall Shrubs
-cover: i-tall.jpg
-permalink: /inventory/tall-shrubs
+cover: i-tall.JPG
 ---

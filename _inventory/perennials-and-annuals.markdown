@@ -1,5 +1,5 @@
 ---
 file: perennials-and-annuals
 title: Perennials & Annuals
-cover: i-perennial.jpg
+cover: i-perennial.JPG
 ---
