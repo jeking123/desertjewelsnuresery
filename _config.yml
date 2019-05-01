@@ -30,7 +30,7 @@ defaults:
     type: inventory
   values:
     layout: inventory-update
-    permalink: "/inventory/:title/"
+    permalink: "/inventory/:file/"
 - scope:
     path: ''
     type: pages
