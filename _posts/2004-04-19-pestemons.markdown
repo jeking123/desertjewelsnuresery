@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Penstemons
-permalink: "/penstemons/"
 date: 04-04-19
 head-image: "/uploads/penstemons.jpg"
 

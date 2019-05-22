@@ -1,7 +1,6 @@
 ---
 layout: posts
 title: Pollinators
-permalink: "/pollinators/"
 head-image: "/uploads/pollinators.jpg"
 
 ---
