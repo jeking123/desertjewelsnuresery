@@ -2,7 +2,7 @@
 title: Desert Jewels Nursery
 timezone: America/Los_Angeles
 permalink: pretty
-url: www.desertjewelsnursery.com
+url: .
 plugins:
 - jekyll-sitemap
 collections:
