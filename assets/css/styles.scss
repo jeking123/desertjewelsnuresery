@@ -28,6 +28,13 @@ $family-primary: mr-eaves-modern;
 
 //
 
+// animations
+
+.grow { transition: all .35s ease-in-out; }
+.grow:hover { transform: scale(1.11); }
+
+// end animations
+
 body {
   overflow: hidden;
 }
@@ -81,8 +88,8 @@ body {
   justify-content: center;
   align-items: center;
   opacity: 0;
-  background-color: $primary;
-  transition: opacity .5s ease-in-out;
+  background-color: rgba(235,235,235,.6);
+  transition: opacity .35s ease-in-out;
 }
 
 .square-cont:hover {
