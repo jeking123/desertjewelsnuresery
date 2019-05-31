@@ -9,7 +9,7 @@ sections:
   label: Inventory
   create: documents
   match: "**/*"
-  new_doc_ext: ".csv"
+  new_doc_ext: csv
 - type: jekyll-pages
   label: Pages
   create: all
