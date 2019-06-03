@@ -3,7 +3,6 @@ layout: posts
 title: Pollinators
 head-image: "/uploads/pollinators.jpg"
 image: "/uploads/pollinator-bumblebee-on-Monarda.jpg"
-
 ---
 ## Focus on Pollinators
 
