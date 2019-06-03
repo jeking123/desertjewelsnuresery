@@ -21,11 +21,11 @@ inventory:
   title: Trees & Vines
   link: trees-and-vines
 carousel:
-- image: "/uploads/Cover-1-Echinacea.JPG"
+- image: "/uploads/Cover-2-Oenothera.JPG"
   title: Xeriscape Plants
   subtitle: Our focus is on beautiful, flowering drought-adapted western native plants, including those native to the Columbia Basin.
   link: Ask Us About Our Inventory
-- image: "/uploads/Cover-2-Oenothera.JPG"
+- image: "/uploads/Cover-1-Echinacea.JPG"
   title: Reduced Water Plants
   subtitle: Plants from the American prairie create a colorful home landscape with low water inputs.
   link: Ask Us About Our Inventory
