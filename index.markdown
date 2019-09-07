@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Desert Jewels Nursery
+title: Desert Jewels Nursery - Spokane Low Water Plants
 inventory:
 - image: "/uploads/inventory/i-perennial.jpg"
   title: Perennials & Annuals
@@ -23,16 +23,19 @@ inventory:
 carousel:
 - image: "/uploads/Cover-2-Oenothera.JPG"
   title: Xeriscape Plants
-  subtitle: Our focus is on beautiful, flowering drought-adapted western native plants, including those native to the Columbia Basin.
+  subtitle: Our focus is on beautiful, flowering drought-adapted western native plants,
+    including those native to the Columbia Basin.
   link: Ask Us About Our Inventory
 - image: "/uploads/Cover-1-Echinacea.JPG"
   title: Reduced Water Plants
-  subtitle: Plants from the American prairie create a colorful home landscape with low water inputs.
+  subtitle: Plants from the American prairie create a colorful home landscape with
+    low water inputs.
   link: Ask Us About Our Inventory
 - image: "/uploads/Cover-3-Spiraea.JPG"
   title: Local Native Trees & Shrubs
-  subtitle: In addition to our desert shrubs that we start from seeds, we offer many different species of local forest trees & shrubs.
+  subtitle: In addition to our desert shrubs that we start from seeds, we offer many
+    different species of local forest trees & shrubs.
   link: Ask Us About Our Inventory
----
 
+---
 A desert plant garden.
