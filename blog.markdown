@@ -1,4 +1,5 @@
 ---
 layout: blog
-title: Desert Jewels Nursery
+title: Blog - Read about the low water plants we offer
+
 ---
