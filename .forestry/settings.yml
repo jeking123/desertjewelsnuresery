@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
+- type: directory
+  path: _data
+  label: Data
+  create: all
+  match: "**/*"
+  new_doc_ext: ".csv"
 - type: jekyll-pages
   label: Pages
   create: all
@@ -13,7 +19,6 @@ sections:
 - type: document
   path: _data/footer.yml
   label: Footer
-  read_only: false
 upload_dir: _uploads
 public_path: "{{site.url}}/uploads"
 front_matter_path: ''
