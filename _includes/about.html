@@ -2,7 +2,7 @@
     <div class="container">
       <div class="columns">
         <div class="column is-6">
-          <div style="background: url('./uploads/demo-garden.jpg') no-repeat center; background-size: cover; width: 100%; height: 400px;">
+          <div style="background: url('.{{page.about.image}}') no-repeat center; background-size: cover; width: 100%; height: 400px;">
 
           </div> 
           <!-- <img src="https://wikiki.github.io/images/life.jpg" height="250px" alt=""> -->
@@ -10,9 +10,9 @@
         <div class="column is-4 is-offset-1 has-text-left" style="display: flex; justify-content: center;">
           <div style="align-self: center;">
             <div>
-              <h1 class="title has-text-white is-size-3">Desert Jewels Nursery</h1>
+              <h1 class="title has-text-white is-size-3">{{ page.about.title }}</h1>
               <hr>
-              <p class="subtitle has-text-white is-size-6">Desert Jewels Nursery specializes in plants for people who want to save water and still have a beautiful landscape. We grow hardy, locally adapted, and drought tolerant plants that can bring beauty while using minimal resources.</p>
+              <p class="subtitle has-text-white is-size-6">{{page.about.bio}}</p>
               <p class="subtitle has-text-white is-size-6">
                 We grow plants for rock gardens, ground covers, and Xeriscape plants. Plants such as Penstemons, Desert
                 Buckwheats, Sedums, and many native species that thrive on rocky soils. Some of these plants, including
