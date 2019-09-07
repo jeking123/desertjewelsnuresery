@@ -8,7 +8,7 @@ sections:
   path: _data
   label: Data
   create: all
-  match: "**/*"
+  match: ".csv"
   new_doc_ext: csv
 - type: jekyll-pages
   label: Pages
