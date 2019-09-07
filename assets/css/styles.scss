@@ -51,7 +51,7 @@ body {
 // hero carousel
 
 // hero carousel animation
-.hero-carousel .carousel-container .carousel-item {
+.carousel.carousel-animate-slide.carousel-animated .carousel-container, .hero-carousel.carousel-animate-slide.carousel-animated .carousel-container {
   height: 100vh !important;
 }
 .carousel-item .carousel-content {
