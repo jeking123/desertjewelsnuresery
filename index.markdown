@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Desert Jewels Nursery - Spokane Low Water Plants
+inventory-title: Our Inventory
+blog-title: Latest News
 inventory:
 - image: "/uploads/inventory/i-perennial.jpg"
   title: Perennials & Annuals
