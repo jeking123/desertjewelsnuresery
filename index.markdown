@@ -41,9 +41,9 @@ carousel:
 about:
   image: "/uploads/demo-garden.jpg"
   title: "Desert Jewels Nursery"
-  bio: "Desert Jewels Nursery specializes in plants for people who want to save water and still have a beautiful landscape. We grow hardy, locally adapted, and drought tolerant plants that can bring beauty while using minimal resources.
-  <br><br>
-  We grow plants for rock gardens, ground covers, and Xeriscape plants. Plants such as Penstemons, Desert Buckwheats, Sedums, and many native species that thrive on rocky soils. Some of these plants, including many Sedums, are also useful for green roof applications."
 
 ---
-A desert plant garden.
+Desert Jewels Nursery specializes in plants for people who want to save water and still have a beautiful landscape. We grow hardy, locally adapted, and drought tolerant plants that can bring beauty while using minimal resources. 
+
+
+We grow plants for rock gardens, ground covers, and Xeriscape plants. Plants such as Penstemons, Desert Buckwheats, Sedums, and many native species that thrive on rocky soils. Some of these plants, including many Sedums, are also useful for green roof applications.
