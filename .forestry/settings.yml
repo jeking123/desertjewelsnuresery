@@ -8,6 +8,7 @@ sections:
   path: _data/footer.yml
   label: Footer
   match: "**/*"
+  read_only: true
 - type: jekyll-pages
   label: Pages
   create: all
