@@ -1,5 +1,6 @@
 ---
 title: Desert Jewels Nursery
+footer: hours
 timezone: America/Los_Angeles
 permalink: pretty
 url: https://www.desertjewelsnursery.com
@@ -36,3 +37,4 @@ defaults:
     type: pages
   values:
     layout: page
+---
