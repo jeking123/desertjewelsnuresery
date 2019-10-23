@@ -3,6 +3,7 @@ layout: posts
 title: Penstemons
 date: 04-04-19
 head-image: "/uploads/penstemons.jpg"
+permalink: "/penstemons"
 
 ---
 ## What is a Penstemon?
