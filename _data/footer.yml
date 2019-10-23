@@ -1,22 +1,26 @@
+---
 hours:
   title: Hours
-  schedule-one: April 5th - June 29th
-  schedule-two: Sept. 6th - Oct. 12th
+  schedule-one: Closed for the season.
+  schedule-two: See you in the spring!
   days: Fridays & Saturdays 9am - 5pm
   appointment: OR CALL FOR APPOINTMENT
 contact:
   title: Contact
-  address: 9809 East Upriver Drive 
+  address: 9809 East Upriver Drive
   location: Spokane, WA 99206
-  link: 'https://www.google.com/maps/place/9809+E+Upriver+Dr,+Spokane,+WA+99206/@47.6971537,-117.2750851,17z/data=!3m1!4b1!4m5!3m4!1s0x549e1fe9c105b395:0xb026b0b2826aaa1a!8m2!3d47.6971501!4d-117.2728963'
+  link: https://www.google.com/maps/place/9809+E+Upriver+Dr,+Spokane,+WA+99206/@47.6971537,-117.2750851,17z/data=!3m1!4b1!4m5!3m4!1s0x549e1fe9c105b395:0xb026b0b2826aaa1a!8m2!3d47.6971501!4d-117.2728963
   email: info@desertjewelsnursery.com
-  phone: (509) 893-3771
-  tel: '15098933771'
+  phone: "(509) 893-3771"
+  tel: "15098933771"
 inventory-title: Inventory
 description:
   title: We're for the
-  bio: Environmentally conscious homeowners and landscapers, people who wish to encourage birds and butterflies, people on wells with low water availability, rock gardeners and collectors will all find something interesting and beautiful at Desert Jewels Nursery.
+  bio: Environmentally conscious homeowners and landscapers, people who wish to encourage
+    birds and butterflies, people on wells with low water availability, rock gardeners
+    and collectors will all find something interesting and beautiful at Desert Jewels
+    Nursery.
 map:
   title: We're on Upriver Dr.
-  image: '/uploads/map.png'
-copyright: © Copyright 2019 Desert Jewels Nursery
+  image: "/uploads/map.png"
+copyright: "© Copyright 2019 Desert Jewels Nursery"
